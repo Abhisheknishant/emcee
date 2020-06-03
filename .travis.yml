@@ -6,7 +6,9 @@ matrix:
 cache:
   directories:
   - "$HOME/.cache/pip"
-
+arch:
+    - amd64
+    - arm64
 python:
   - "3.6"
   - "3.7"
